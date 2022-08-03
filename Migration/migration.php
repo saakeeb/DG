@@ -655,7 +655,7 @@ get_header()?>
     </section>
 
     <!-- testimonial section  -->
-    <div class="testimonial-section container">
+    <div class="testimonial-section">
         <h2> Already earning with us </h2>
         <div class="shape shape1"></div>
         <div class="shape shape2"></div>
@@ -981,4 +981,15 @@ get_header()?>
 </body>
 
 </html> -->
+
+        <!-- if($pageIdd === 53074){
+           wp_enqueue_style( 'child-style-s422',get_stylesheet_directory_uri() . '/migration-file/css/slick-theme.css',true,time());
+           
+            wp_enqueue_style( 'child-style-s423',get_stylesheet_directory_uri() . '/migration-file/css/slick.css',true,time());
+             
+            wp_enqueue_style( 'child-style-s424',get_stylesheet_directory_uri() . '/migration-file/css/font-awesome.min.css',true,time());
+              
+            wp_enqueue_style( 'child-style-s421',get_stylesheet_directory_uri() . '/migration-file/css/style.css',true,time());
+        
+        } -->
 <?php get_footer();?>
