@@ -24,6 +24,6 @@ $('#testi-carousel').slick({
     autoplay: false,
     loop: true,   
     arrows: true,
-    prevArrow: "<button type='button' class='slick-prev pull-left'><img src='./assets/svg/slider-left-arrow.svg' alt=''></button>",
-    nextArrow: "<button type='button' class='slick-next pull-right'><img src='./assets/svg/slider-right-arrow.svg' alt=''></button>" 
+    prevArrow: "<button type='button' class='slick-prev pull-left'><img src='./migration-file/svg/slider-left-arrow.svg' alt=''></button>",
+    nextArrow: "<button type='button' class='slick-next pull-right'><img src='./migration-file/svg/slider-right-arrow.svg' alt=''></button>" 
   });

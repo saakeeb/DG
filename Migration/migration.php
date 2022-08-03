@@ -1,18 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+/*
+    Template Name: Migration
+*/
+get_header()?> 
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/slick-theme.css">
-    <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./assets/css/slick.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Migration</title>
-</head>
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
 
-<body>
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <link rel="stylesheet" href="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/css/slick-theme.css">-->
+<!--    <link rel="stylesheet" href="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/css/font-awesome.min.css">-->
+<!--    <link rel="stylesheet" href="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/css/slick.css">-->
+<!--    <link rel="stylesheet" href="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/css/style.css">-->
+<!--    <title>Migration</title>-->
+<!--</head>-->
+
+<!--<body>-->
     <!-- Hero Banner Section Top -->
     <section class="hero-banner banner-migration">
         <div class="container">
@@ -45,7 +51,8 @@
                 </div>
                 <div class="figure">
                     <div class="img">
-                        <img src="./assets/svg/hero-banner-pc.svg" alt="">
+                        <!--<img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/assets/img/banner.png" alt=""  /> -->
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/hero-banner-pc.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -58,7 +65,7 @@
             <div class="content">
                 <div class="figure">
                     <div class="img">
-                        <img src="./assets/svg/hassle-free.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/hassle-free.svg" alt="">
                     </div>
                 </div>
                 <div class="text">
@@ -88,15 +95,15 @@
                     </div>
                     <div class="list">
                         <p>
-                            <img src="./assets/svg/gregg-check.svg" alt="">
+                            <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/gregg-check.svg" alt="">
                             <span>2100+ migrations completed in the past 3 months</span>
                         </p>
                         <p>
-                            <img src="./assets/svg/gregg-check.svg" alt="">
+                            <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/gregg-check.svg" alt="">
                             <span>780 sites have been moved over by the migration team in the last month</span>
                         </p>
                         <p>
-                            <img src="./assets/svg/gregg-check.svg" alt="">
+                            <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/gregg-check.svg" alt="">
                             <span>1-2 site migrations completed in each hour of every workday!</span>
                         </p>
                     </div>
@@ -136,7 +143,7 @@
                 </div>
                 <div class="figure">
                     <div class="img">
-                        <img src="./assets/svg/high-performance.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/high-performance.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -152,7 +159,7 @@
             <div class="content">
                 <div class="card">
                     <div class="logo">
-                        <img src="./assets/svg/performance-rocket.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/performance-rocket.svg" alt="">
                     </div>
                     <div class="head">
                         <h2><strong>Speed-obsessed infrastructure</strong></h2>
@@ -169,7 +176,7 @@
                 </div>
                 <div class="card">
                     <div class="logo">
-                        <img src="./assets/svg/performance-arrow.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/performance-arrow.svg" alt="">
                     </div>
                     <div class="head">
                         <h2><strong>Speed-obsessed infrastructure</strong></h2>
@@ -186,7 +193,7 @@
                 </div>
                 <div class="card">
                     <div class="logo">
-                        <img src="./assets/svg/performance-globe.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/performance-globe.svg" alt="">
                     </div>
                     <div class="head">
                         <h2><strong>Speed-obsessed infrastructure</strong></h2>
@@ -210,7 +217,7 @@
             <div class="content">
                 <div class="figure">
                     <div class="img">
-                        <img src="./assets/img/kagiso-rabada.png" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/img/kagiso-rabada.png" alt="">
                     </div>
                     <div class="title">
                         <h2><strong>Kagiso Rabada</strong></h2>
@@ -287,12 +294,12 @@
                 <div class="content">
                     <div class="figure-1 figure">
                         <div class="img">
-                            <img src="./assets/svg/migrate-more-table.svg" alt="">
+                            <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/migrate-more-table.svg" alt="">
                         </div>
                     </div>
                     <div class="figure-2 figure">
                         <div class="img">
-                            <img src="./assets/svg/migrate-more-clock.svg" alt="">
+                            <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/migrate-more-clock.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -306,7 +313,7 @@
             <div class="content">
                 <div class="figure">
                     <div class="img">
-                        <img src="./assets/img/kagiso-rabada.png" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/img/kagiso-rabada.png" alt="">
                     </div>
                     <div class="title">
                         <h2><strong>Kagiso Rabada</strong></h2>
@@ -362,7 +369,7 @@
                 </div>
                 <div class="figure">
                     <div class="img">
-                        <img src="./assets/svg/top-notch-security.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/top-notch-security.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -378,7 +385,7 @@
             <div class="content">
                 <div class="card">
                     <div class="logo">
-                        <img src="./assets/svg/top-notch-shield.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/top-notch-shield.svg" alt="">
                     </div>
                     <div class="head">
                         <h2><strong>Enterprise-grade firewall and DDoS protection powered by Cloudflare</strong></h2>
@@ -393,7 +400,7 @@
                 </div>
                 <div class="card">
                     <div class="logo">
-                        <img src="./assets/svg/top-notch-repeat.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/top-notch-repeat.svg" alt="">
                     </div>
                     <div class="head">
                         <h2><strong>Automatic backups and 24/7/365 support</strong></h2>
@@ -408,7 +415,7 @@
                 </div>
                 <div class="card">
                     <div class="logo">
-                        <img src="./assets/svg/top-notch-clock.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/top-notch-clock.svg" alt="">
                     </div>
                     <div class="head">
                         <h2><strong>Frequent uptime checks for peace of mind</strong></h2>
@@ -431,7 +438,7 @@
             <div class="content">
                 <div class="figure">
                     <div class="img">
-                        <img src="./assets/svg/gregghosting-plan.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/gregghosting-plan.svg" alt="">
                     </div>
                 </div>
                 <div class="text">
@@ -448,24 +455,24 @@
                     </div>
                     <div class="list">
                         <p>
-                            <img src="./assets/svg/gregg-check-block.svg" alt="">
+                            <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/gregg-check-block.svg" alt="">
                             <span><strong>Are you a web development agency with hundreds of sites? We’ve got you
                                     covered</strong></span>
                         </p>
                         <p>
-                            <img src="./assets/svg/gregg-check-block.svg" alt="">
+                            <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/gregg-check-block.svg" alt="">
                             <span>Free migrations are available for all of Kinsta’s plans, from Starter to Enterprise,
                                 regardless of how many sites you
                                 have. Simply sign up for a plan to get started.</span>
                         </p>
                         <p>
-                            <img src="./assets/svg/gregg-check-block.svg" alt="">
+                            <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/gregg-check-block.svg" alt="">
                             <span>Choose between a basic migration or premium migration and fill out the form. Our team
                                 will then coordinate with you
                                 regarding the best time to migrate your site.</span>
                         </p>
                         <p>
-                            <img src="./assets/svg/gregg-check-block.svg" alt="">
+                            <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/gregg-check-block.svg" alt="">
                             <span>Don’t wait, migrate your site and join the 24,200+ companies using Gregghosting
                                 today!</span>
                         </p>
@@ -481,7 +488,7 @@
             <div class="content">
                 <div class="figure">
                     <div class="img">
-                        <img src="./assets/img/kagiso-rabada.png" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/img/kagiso-rabada.png" alt="">
                     </div>
                     <div class="title">
                         <h2><strong>Kagiso Rabada</strong></h2>
@@ -640,7 +647,7 @@
                 </div>
                 <div class="figure">
                     <div class="img">
-                        <img src="./assets/svg/migration-dashboard.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/migration-dashboard.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -659,15 +666,15 @@
                         1500s,
                         when an unknown printer took a galley of scrambled it to make.</p>
                     <div class="star-icon">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
                     </div>
                 </div>
                 <div class="item-bottom">
-                    <img class="profile-img" src="./assets/img/david-miller.png" alt="">
+                    <img class="profile-img" src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/img/david-miller.png" alt="">
                     <h5>David Miller</h5>
                     <p>Lorem Ipsum</p>
                 </div>
@@ -678,15 +685,15 @@
                         1500s,
                         when an unknown printer took a galley of scrambled it to make.</p>
                     <div class="star-icon">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
                     </div>
                 </div>
                 <div class="item-bottom">
-                    <img class="profile-img" src="./assets/img/christian-sara.png" alt="">
+                    <img class="profile-img" src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/img/christian-sara.png" alt="">
                     <h5>Christian Sara</h5>
                     <p>Lorem Ipsum</p>
                 </div>
@@ -697,15 +704,15 @@
                         1500s,
                         when an unknown printer took a galley of scrambled it to make.</p>
                     <div class="star-icon">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
                     </div>
                 </div>
                 <div class="item-bottom">
-                    <img class="profile-img" src="./assets/img/david-miller.png" alt="">
+                    <img class="profile-img" src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/img/david-miller.png" alt="">
                     <h5>David Miller</h5>
                     <p>Lorem Ipsum</p>
                 </div>
@@ -717,15 +724,15 @@
                         1500s,
                         when an unknown printer took a galley of scrambled it to make.</p>
                     <div class="star-icon">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
                     </div>
                 </div>
                 <div class="item-bottom">
-                    <img class="profile-img" src="./assets/img/christian-sara.png" alt="">
+                    <img class="profile-img" src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/img/christian-sara.png" alt="">
                     <h5>Cristin Sara</h5>
                     <p>Lorem Ipsum</p>
                 </div>
@@ -737,15 +744,15 @@
                         1500s,
                         when an unknown printer took a galley of scrambled it to make.</p>
                     <div class="star-icon">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
                     </div>
                 </div>
                 <div class="item-bottom">
-                    <img class="profile-img" src="./assets/img/david-miller.png" alt="">
+                    <img class="profile-img" src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/img/david-miller.png" alt="">
                     <h5>David Miller</h5>
                     <p>Lorem Ipsum</p>
                 </div>
@@ -757,15 +764,15 @@
                         1500s,
                         when an unknown printer took a galley of scrambled it to make.</p>
                     <div class="star-icon">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
                     </div>
                 </div>
                 <div class="item-bottom">
-                    <img class="profile-img" src="./assets/img/christian-sara.png" alt="">
+                    <img class="profile-img" src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/img/christian-sara.png" alt="">
                     <h5>Cristin Sara</h5>
                     <p>Lorem Ipsum</p>
                 </div>
@@ -776,15 +783,15 @@
                         1500s,
                         when an unknown printer took a galley of scrambled it to make.</p>
                     <div class="star-icon">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
                     </div>
                 </div>
                 <div class="item-bottom">
-                    <img class="profile-img" src="./assets/img/david-miller.png" alt="">
+                    <img class="profile-img" src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/img/david-miller.png" alt="">
                     <h5>David Miller</h5>
                     <p>Lorem Ipsum</p>
                 </div>
@@ -796,15 +803,15 @@
                         1500s,
                         when an unknown printer took a galley of scrambled it to make.</p>
                     <div class="star-icon">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
                     </div>
                 </div>
                 <div class="item-bottom">
-                    <img class="profile-img" src="./assets/img/christian-sara.png" alt="">
+                    <img class="profile-img" src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/img/christian-sara.png" alt="">
                     <h5>Christian Sara</h5>
                     <p>Lorem Ipsum</p>
                 </div>
@@ -815,15 +822,15 @@
                         1500s,
                         when an unknown printer took a galley of scrambled it to make.</p>
                     <div class="star-icon">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
                     </div>
                 </div>
                 <div class="item-bottom">
-                    <img class="profile-img" src="./assets/img/david-miller.png" alt="">
+                    <img class="profile-img" src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/img/david-miller.png" alt="">
                     <h5>David Miller</h5>
                     <p>Lorem Ipsum</p>
                 </div>
@@ -835,15 +842,15 @@
                         1500s,
                         when an unknown printer took a galley of scrambled it to make.</p>
                     <div class="star-icon">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
-                        <img src="./assets/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/star.svg" alt="">
                     </div>
                 </div>
                 <div class="item-bottom">
-                    <img class="profile-img" src="./assets/img/christian-sara.png" alt="">
+                    <img class="profile-img" src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/img/christian-sara.png" alt="">
                     <h5>Christian Sara</h5>
                     <p>Lorem Ipsum</p>
                 </div>
@@ -873,7 +880,7 @@
     </section>
 
     <!-- footer  -->
-    <footer class="container">
+    <!-- <footer class="container">
         <div class="footer-top">
             <div>
                 <h2>Subscribe for newsletter</h2>
@@ -886,9 +893,9 @@
 
         <div class="footer-bottom">
             <div class="left">
-                <img src="./assets/svg/gregg-hosting.svg" alt="">
+                <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/gregg-hosting.svg" alt="">
                 <div class="desc">
-                    <img src="./assets/svg/hands-logo.svg" alt="">
+                    <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/hands-logo.svg" alt="">
                     <p>How hosting with us helps save
                         our enviornment?</p>
 
@@ -896,16 +903,16 @@
                 <div class="socail-links">
                     <ul>
                         <li>
-                            <a href="#"><img src="./assets/svg/facebook.svg" alt=""></a>
+                            <a href="#"><img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/facebook.svg" alt=""></a>
                         </li>
                         <li>
-                            <a href="#"><img src="./assets/svg/instagram.svg" alt=""></a>
+                            <a href="#"><img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/instagram.svg" alt=""></a>
                         </li>
                         <li>
-                            <a href="#"><img src="./assets/svg/twitter.svg" alt=""></a>
+                            <a href="#"><img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/twitter.svg" alt=""></a>
                         </li>
                         <li>
-                            <a href="#"><img src="./assets/svg/youtube.svg" alt=""></a>
+                            <a href="#"><img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/youtube.svg" alt=""></a>
                         </li>
                     </ul>
                 </div>
@@ -967,10 +974,11 @@
 
     </footer>
 
-    <script src="./assets/js/jquery.min.js"></script>
+    <script src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/js/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="./assets/js/slick.min.js"></script>
-    <script src="./assets/js/main.js"></script>
+    <script src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/js/slick.min.js"></script>
+    <script src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/js/main.js"></script>
 </body>
 
-</html>
+</html> -->
+<?php get_footer();?>
