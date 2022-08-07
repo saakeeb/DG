@@ -8,12 +8,12 @@
 }
 
 /* Common CSS */
-section.hero-banner,
-section.hassle-free,
-section.high-performance,
-section.performance-card,
-section.love-kinsta,
-section.migrate-more {
+.page-id-53074 section.hero-banner,
+.page-id-53074 section.hassle-free,
+.page-id-53074 section.high-performance,
+.page-id-53074 section.performance-card,
+.page-id-53074 section.love-kinsta,
+.page-id-53074 section.migrate-more {
     margin: auto;
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,41 +21,41 @@ section.migrate-more {
     /* overflow: hidden; */
 }
 
-.hero-banner .container,
-.hassle-free .container,
-.high-performance .container,
-.performance-card .container,
-.love-kinsta .container,
-.migrate-more .container {
+.page-id-53074 .hero-banner .container,
+.page-id-53074 .hassle-free .container,
+.page-id-53074 .high-performance .container,
+.page-id-53074 .performance-card .container,
+.page-id-53074 .love-kinsta .container,
+.page-id-53074 .migrate-more .container {
     max-width: 1560px !important;
     width: 100%;
     margin: 0 auto;
     position: relative;
 }
 
-.hero-banner .container .content,
-.hassle-free .container .content,
-.high-performance .container .content,
-.performance-card .container .content,
-.love-kinsta .container .content {
+.page-id-53074 .hero-banner .container .content,
+.page-id-53074 .hassle-free .container .content,
+.page-id-53074 .high-performance .container .content,
+.page-id-53074 .performance-card .container .content,
+.page-id-53074 .love-kinsta .container .content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 120px 25px;
 }
 
-.hassle-free .container .content .text,
-.high-performance .container .content .text,
-.migrate-more .container .content .text,
-.hassle-free .container .content .figure,
-.high-performance .container .content .figure,
-.migrate-more .container .content .figure {
+.page-id-53074 .hassle-free .container .content .text,
+.page-id-53074 .high-performance .container .content .text,
+.page-id-53074 .migrate-more .container .content .text,
+.page-id-53074 .hassle-free .container .content .figure,
+.page-id-53074 .high-performance .container .content .figure,
+.page-id-53074 .migrate-more .container .content .figure {
     flex-basis: 50%;
     width: 50%;
 }
 
-.high-performance .text .head h2,
-.hassle-free .text .head h2 {
+.page-id-53074 .high-performance .text .head h2,
+.page-id-53074 .hassle-free .text .head h2 {
     font-weight: 600;
     font-size: 48px;
     line-height: 64px;
@@ -63,24 +63,24 @@ section.migrate-more {
     margin-bottom: 20px;
 }
 
-.high-performance .text .paragraph p,
-.hassle-free .text .paragraph p,
-.hassle-free .text .list p,
-.performance-card .container .card h2 {
+.page-id-53074 .high-performance .text .paragraph p,
+.page-id-53074 .hassle-free .text .paragraph p,
+.page-id-53074 .hassle-free .text .list p,
+.page-id-53074 .performance-card .container .card h2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 23px;
     color: #1D1D1D;
 }
 
-.high-performance .img,
-.hassle-free .img {
+.page-id-53074 .high-performance .img,
+.page-id-53074 .hassle-free .img {
     width: 100%;
     position: relative;
 }
 
-.high-performance .img::after,
-.hassle-free .img::after {
+.page-id-53074 .high-performance .img::after,
+.page-id-53074 .hassle-free .img::after {
     content: '';
     position: absolute;
     border: 1px solid #33ADF8;
@@ -92,8 +92,8 @@ section.migrate-more {
     border-radius: 10px;
 }
 
-.high-performance .img img,
-.hassle-free .img img {
+.page-id-53074 .high-performance .img img,
+.page-id-53074 .hassle-free .img img {
     border-radius: 10px;
     max-width: 825px;
     width: 100%;
@@ -102,7 +102,7 @@ section.migrate-more {
     z-index: 10;
 }
 
-.performance-card .container .card p a,
+.page-id-53074 .performance-card .container .card p a,
 .high-performance .text .paragraph p a {
     text-decoration: none;
     color: #33ADF8;
@@ -110,29 +110,29 @@ section.migrate-more {
 }
 
 /* < !-- Gap --> */
-.gap {
+.page-id-53074 .gap {
     height: 120px;
     background-color: #e5e4e4;
 }
 
 /* < !-- Hero banner section top --> */
-section.hero-banner {
+.page-id-53074 section.hero-banner {
     background-color: #002576;
     background-image: url("../svg/hero-banner-background.svg");
     padding-top: 120px;
 }
 
-.hero-banner .container .content .text {
+.page-id-53074 .hero-banner .container .content .text {
     flex-basis: 55%;
     width: 55%;
 }
 
-.hero-banner .container .content .figure {
+.page-id-53074 .hero-banner .container .content .figure {
     flex-basis: 45%;
     width: 45%;
 }
 
-.hero-banner .container .head h2 {
+.page-id-53074 .hero-banner .container .head h2 {
     font-weight: 700;
     color: #fff;
     font-size: 64px;
@@ -140,26 +140,26 @@ section.hero-banner {
     margin-bottom: 40px;
 }
 
-.hero-banner .container .paragraph p {
+.page-id-53074 .hero-banner .container .paragraph p {
     color: #fff;
     font-size: 16px;
     line-height: 23.36px;
     margin-bottom: 0;
 }
 
-.hero-banner .container .paragraph .pg-5 {
+.page-id-53074 .hero-banner .container .paragraph .pg-5 {
     font-weight: 500;
 }
 
-.hero-banner .container .paragraph .pg-4 {
+.page-id-53074 .hero-banner .container .paragraph .pg-4 {
     font-weight: 400;
 }
 
-.hero-banner .container .btn {
+.page-id-53074 .hero-banner .container .btn {
     padding-left: 0;
 }
 
-.hero-banner .container .btn a {
+.page-id-53074 .hero-banner .container .btn a {
     margin-top: 40px;
     background-color: #33ADF8;
     border-radius: 10px;
@@ -177,17 +177,17 @@ section.hero-banner {
     transition: all 0.3s;
 }
 
-.hero-banner .container .btn a:hover {
+.page-id-53074 .hero-banner .container .btn a:hover {
     color: #002576;
     background-color: #FFFFFF;
     border-color: #FFFFFF;
 }
 
-.hero-banner .container .figure .img {
+.page-id-53074 .hero-banner .container .figure .img {
     position: relative;
 }
 
-.hero-banner .container .figure .img::after {
+.page-id-53074 .hero-banner .container .figure .img::after {
     position: absolute;
     content: url("../svg/hero-banner-circuit.svg");
     background-size: cover;
@@ -196,7 +196,7 @@ section.hero-banner {
     right: 0px;
 }
 
-.hero-banner .container .figure .img img {
+.page-id-53074 .hero-banner .container .figure .img img {
     max-width: 620px;
     width: 100%;
     padding: 40px;
@@ -205,19 +205,19 @@ section.hero-banner {
 }
 
 /* < !-- Hassle-Free Migrations --> */
-section.hassle-free {
+.page-id-53074 section.hassle-free {
     background-color: #f1f5fe;
 }
 
-.hassle-free .img::after {
+.page-id-53074 .hassle-free .img::after {
     left: 50px;
 }
 
-.hassle-free .text {
+.page-id-53074 .hassle-free .text {
     padding-left: 70px;
 }
 
-.hassle-free .text .list {
+.page-id-53074 .hassle-free .text .list {
     margin-top: 40px;
     display: inline-flex;
     align-items: flex-start;
@@ -225,35 +225,36 @@ section.hassle-free {
     gap: 30px;
 }
 
-.hassle-free .text .list p {
+.page-id-53074 .hassle-free .text .list p {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 22px;
 }
 
+.page-id-53074
 /* < !-- Built For High-Performance --> */
 
-section.high-performance {
+.page-id-53074 section.high-performance {
     background-color: #fff;
 }
 
-.high-performance .img::after {
+.page-id-53074 .high-performance .img::after {
     right: 50px;
 }
 
-.high-performance .text {
+.page-id-53074 .high-performance .text {
     padding-right: 70px;
 }
 
 /* < !-- High-Performance Card --> */
-section.performance-card {
+.page-id-53074 .page-id-53074 section.performance-card {
     background-color: #f1f5fe;
     position: relative;
     height: 300px;
 }
 
-.performance-card .container {
+.page-id-53074 .page-id-53074 .performance-card .container {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -261,12 +262,12 @@ section.performance-card {
     z-index: 100;
 }
 
-.performance-card .container .content {
+.page-id-53074 .performance-card .container .content {
     gap: 40px;
     padding: 0 25px 120px;
 }
 
-.performance-card .container .card {
+.page-id-53074 .performance-card .container .card {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -279,17 +280,17 @@ section.performance-card {
     text-align: center;
 }
 
-.performance-card .container .card .logo {
+.page-id-53074 .performance-card .container .card .logo {
     margin-bottom: 40px;
 }
 
-.performance-card .container .card h2 {
+.page-id-53074 .performance-card .container .card h2 {
     margin-bottom: 20px;
     color: #002576;
     font-weight: 500;
 }
 
-.performance-card .container .card p {
+.page-id-53074 .performance-card .container .card p {
     color: #333333;
     font-weight: 400;
     font-size: 14px;
@@ -298,24 +299,22 @@ section.performance-card {
     text-align: center;
 }
 
-
-
-.performance-card .container .card .paragraph {
+.page-id-53074 .page-id-53074 .page-id-53074 .performance-card .container .card .paragraph {
     min-height: 165px;
     height: 100%;
 }
 
 /* < !-- We love kinsta --> */
-section.love-kinsta {
+.page-id-53074 section.love-kinsta {
     background-color: #E1EEFC;
 }
 
-.love-kinsta .figure {
+.page-id-53074 .love-kinsta .figure {
     flex-basis: 25%;
     padding-right: 70px;
 }
 
-.love-kinsta .figure .img img {
+.page-id-53074 .love-kinsta .figure .img img {
     max-width: 397px;
     width: 100%;
     padding: 10px;
@@ -323,30 +322,30 @@ section.love-kinsta {
     margin: auto;
 }
 
-.love-kinsta .figure .title {
+.page-id-53074 .love-kinsta .figure .title {
     display: block;
     text-align: center;
 }
 
-.love-kinsta .figure .title h2 {
+.page-id-53074 .love-kinsta .figure .title h2 {
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
     color: #1D1D1D;
 }
 
-.love-kinsta .figure .title p {
+.page-id-53074 .love-kinsta .figure .title p {
     font-size: 16px;
     font-weight: 400;
     line-height: 23px;
     color: #4F4F4F;
 }
 
-.love-kinsta .text {
+.page-id-53074 .love-kinsta .text {
     flex-basis: 75%;
 }
 
-.love-kinsta .text .head h2 {
+.page-id-53074 .love-kinsta .text .head h2 {
     font-size: 32px;
     font-weight: 500;
     line-height: 44px;
@@ -354,7 +353,7 @@ section.love-kinsta {
     margin-bottom: 40px;
 }
 
-.love-kinsta .text .paragraph p {
+.page-id-53074 .love-kinsta .text .paragraph p {
     font-size: 16px;
     font-weight: 400;
     line-height: 23px;
@@ -362,14 +361,14 @@ section.love-kinsta {
     margin-bottom: 40px;
 }
 
-.love-kinsta .text .cards {
+.page-id-53074 .love-kinsta .text .cards {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 18px;
 }
 
-.love-kinsta .text .cards .card {
+.page-id-53074 .love-kinsta .text .cards .card {
     padding: 40px 20px;
     text-align: center;
     background: linear-gradient(#E1EEFC, #E1EEFC) padding-box,
@@ -384,7 +383,7 @@ section.love-kinsta {
     flex-direction: column;
 }
 
-.love-kinsta .text .card h2 {
+.page-id-53074 .love-kinsta .text .card h2 {
     font-size: 16px;
     font-weight: 500;
     line-height: 29px;
@@ -392,7 +391,7 @@ section.love-kinsta {
     margin-bottom: 18px;
 }
 
-.love-kinsta .text .card p {
+.page-id-53074 .love-kinsta .text .card p {
     font-size: 16px;
     font-weight: 400;
     line-height: 23px;
@@ -400,77 +399,77 @@ section.love-kinsta {
     margin-bottom: 10px;
 }
 
-.love-kinsta .text .card p span,
-.love-kinsta .text .card p.speed {
+.page-id-53074 .love-kinsta .text .card p span,
+.page-id-53074 .love-kinsta .text .card p.speed {
     color: #33ADF8;
 }
 
 /* < !-- Migrate More --> */
-section.migrate-more {
+.page-id-53074 section.migrate-more {
     background-color: #e5e4e4;
 }
 
-.migrate-more .container .contents {
+.page-id-53074 .migrate-more .container .contents {
     padding: 120px 25px 100px;
 }
 
-.migrate-more .container .content {
+.page-id-53074 .migrate-more .container .content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 70px;
 }
 
-.migrate-more .container .content .figure .img {
+.page-id-53074 .migrate-more .container .content .figure .img {
     padding: 20px;
     width: 100%;
 }
 
-.migrate-more .container .content .figure .img img {
+.page-id-53074 .migrate-more .container .content .figure .img img {
     max-width: 750px;
     width: 100%;
 }
 
-.migrate-more .title {
+.page-id-53074 .migrate-more .title {
     text-align: center;
     color: #1D1D1D;
 }
 
-.migrate-more .title h2 {
+.page-id-53074 .migrate-more .title h2 {
     font-weight: 600;
     font-size: 48;
     line-height: 64px;
     margin-bottom: 20px;
 }
 
-.migrate-more .title p {
+.page-id-53074 .migrate-more .title p {
     font-weight: 400;
     font-size: 16px;
     line-height: 23px;
 }
 
 /* < !-- High-Performance Card repeat Top Notch Security --> */
-.performance-card.top-notch .container .card h2 {
+.page-id-53074 .performance-card.top-notch .container .card h2 {
     padding: 0 20px;
     height: 50px;
 }
 
 /* < !-- Hassle-Free Migrations repeat gregghosting-plan--> */
 
-.hassle-free.gregghosting-plan .img::after {
+.page-id-53074 .hassle-free.gregghosting-plan .img::after {
     display: none;
 }
 
-.hassle-free.gregghosting-plan .container .content {
+.page-id-53074 .hassle-free.gregghosting-plan .container .content {
     padding: 0 25px 120px;
 }
 
 /* < !-- Migrate More repeat perform migration--> */
-section.migrate-more.perform-migration {
+.page-id-53074 section.migrate-more.perform-migration {
     background-color: #f1f5f1;
 }
 
-.migrate-more.perform-migration .contents .title p {
+.page-id-53074 .migrate-more.perform-migration .contents .title p {
     margin-bottom: 40px;
     font-weight: 500;
     color: #333333;
@@ -478,11 +477,11 @@ section.migrate-more.perform-migration {
     line-height: 28px;
 }
 
-.migrate-more.perform-migration .content {
+.page-id-53074 .migrate-more.perform-migration .content {
     align-items: flex-start;
 }
 
-.migrate-more.perform-migration .content .text p {
+.page-id-53074 .migrate-more.perform-migration .content .text p {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -493,13 +492,13 @@ section.migrate-more.perform-migration {
     margin-bottom: 30px;
 }
 
-.migrate-more.perform-migration .content .text p .num {
+.page-id-53074 .migrate-more.perform-migration .content .text p .num {
     font-size: 24px;
     font-weight: 500;
     line-height: 34px;
 }
 
-.migrate-more.perform-migration .contents .footer-text {
+.page-id-53074 .migrate-more.perform-migration .contents .footer-text {
     font-weight: 500;
     color: #333333;
     font-size: 20px;
@@ -509,27 +508,27 @@ section.migrate-more.perform-migration {
 }
 
 /* < !-- Built For High-Performance repeat migrate-dashboard--> */
-section.high-performance.migrate-dashboard {
+.page-id-53074 section.high-performance.migrate-dashboard {
     background-color: #282828;
 }
 
-.high-performance.migrate-dashboard .img::after {
+.page-id-53074 .high-performance.migrate-dashboard .img::after {
     display: none;
 }
 
-.high-performance.migrate-dashboard .text h2,
-.high-performance.migrate-dashboard .text p {
+.page-id-53074 .high-performance.migrate-dashboard .text h2,
+.page-id-53074 .high-performance.migrate-dashboard .text p {
     color: #fff;
 }
 
 /* < !-- Migrate More repeat wordpress-sites--> */
-section.migrate-more.wordpress-sites {
+.page-id-53074 section.migrate-more.wordpress-sites {
     background: linear-gradient(95.62deg, #002576 4.57%, #33ADF8 97.72%);
     position: relative;
     z-index: 1;
 }
 
-section.migrate-more.wordpress-sites::before {
+.page-id-53074 section.migrate-more.wordpress-sites::before {
     position: absolute;
     width: 417.27px;
     height: 417.27px;
@@ -542,7 +541,7 @@ section.migrate-more.wordpress-sites::before {
     transform: rotate(20deg);
 }
 
-section.migrate-more.wordpress-sites::after {
+.page-id-53074 section.migrate-more.wordpress-sites::after {
     position: absolute;
     width: 236.62px;
     height: 236.62px;
@@ -554,7 +553,7 @@ section.migrate-more.wordpress-sites::after {
     border-radius: 50%;
 }
 
-section.migrate-more.wordpress-sites .content {
+.page-id-53074 section.migrate-more.wordpress-sites .content {
     display: block;
     text-align: center;
     padding: 120px 25px;
@@ -562,7 +561,7 @@ section.migrate-more.wordpress-sites .content {
     margin: auto;
 }
 
-section.migrate-more.wordpress-sites .content .head h2 {
+.page-id-53074 section.migrate-more.wordpress-sites .content .head h2 {
     color: #F1F5FE;
     font-size: 64px;
     font-weight: 700;
@@ -570,7 +569,7 @@ section.migrate-more.wordpress-sites .content .head h2 {
     margin-bottom: 20px;
 }
 
-section.migrate-more.wordpress-sites .content .paragraph p {
+.page-id-53074 section.migrate-more.wordpress-sites .content .paragraph p {
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
@@ -578,7 +577,7 @@ section.migrate-more.wordpress-sites .content .paragraph p {
     padding: 0 50px;
 }
 
-.migrate-more.wordpress-sites .container .btn a {
+.page-id-53074 .migrate-more.wordpress-sites .container .btn a {
     margin-top: 40px;
     border-radius: 10px;
     font-size: 20px;
@@ -596,7 +595,7 @@ section.migrate-more.wordpress-sites .content .paragraph p {
     border-color: #FFFFFF;
 }
 
-.migrate-more.wordpress-sites .container .btn a:hover {
+.page-id-53074 .migrate-more.wordpress-sites .container .btn a:hover {
     color: #fff;
     background-color: #33ADF8;
     border-color: #33ADF8;
@@ -712,19 +711,24 @@ section.migrate-more.wordpress-sites .content .paragraph p {
 /*/for 1200 screen design/*/
 
 @media(min-width: 1080px) and (max-width: 1439px) {
-    .hero-banner .container .head h2 {
+    .page-id-53074 .hero-banner .container .head h2 {
         font-size: 40px;
         line-height: 48px;
     }
 
-    .hero-banner .container .content .text {
+    .page-id-53074 .hero-banner .container .content .text {
         flex-basis: 50%;
         width: 50%;
     }
 
-    .hero-banner .container .figure .img::after {
+    .page-id-53074 .hero-banner .container .figure .img::after {
         top: -10%;
         right: -10%;
+    }
+
+    .page-id-53074 .high-performance .text .head h2, .hassle-free .text .head h2 {
+        font-size: 32px;
+        line-height: 43.2px;
     }
 }
 
@@ -736,34 +740,34 @@ section.migrate-more.wordpress-sites .content .paragraph p {
 
 @media(min-width: 930px) and (max-width: 1080px) {
 
-    .hero-banner .container .content,
-    .hassle-free .container .content,
-    .high-performance .container .content,
-    .performance-card .container .content,
-    .love-kinsta .container .content,
-    .migrate-more.wordpress-sites .content,
+    .page-id-53074 .hero-banner .container .content,
+    .page-id-53074 .hassle-free .container .content,
+    .page-id-53074 .high-performance .container .content,
+    .page-id-53074 .performance-card .container .content,
+    .page-id-53074 .love-kinsta .container .content,
+    .page-id-53074 .migrate-more.wordpress-sites .content,
     .page-id-53074 .elementor-element-18d1af2 .elementor-widget-wrap {
         padding: 100px 25px;
     }
 
-    .performance-card .container .content {
+    .page-id-53074 .performance-card .container .content {
         padding: 0 25px 100px;
     }
 
-    .migrate-more .container .contents {
+    .page-id-53074 .page-id-53074 .migrate-more .container .contents {
         padding: 100px 25px 80px;
     }
 
-    .hassle-free.gregghosting-plan .container .content {
+    .page-id-53074 .hassle-free.gregghosting-plan .container .content {
         padding: 0 25px 100px;
     }
 
-    .hero-banner .container .head h2 {
+    .page-id-53074 .hero-banner .container .head h2 {
         font-size: 40px;
         line-height: 48px;
     }
 
-    .hero-banner .container .figure .img::after {
+    .page-id-53074 .hero-banner .container .figure .img::after {
         top: -10%;
         right: -10%;
     }
@@ -775,46 +779,50 @@ section.migrate-more.wordpress-sites .content .paragraph p {
 
 @media(min-width: 680px) and (max-width: 930px) {
 
-    .hero-banner .container .content,
-    .hassle-free .container .content,
-    .high-performance .container .content,
-    .performance-card .container .content,
-    .love-kinsta .container .content,
-    .migrate-more.wordpress-sites .content,
+    .page-id-53074 .hero-banner .container .content,
+    .page-id-53074 .hassle-free .container .content,
+    .page-id-53074 .high-performance .container .content,
+    .page-id-53074 .performance-card .container .content,
+    .page-id-53074 .love-kinsta .container .content,
+    .page-id-53074 .migrate-more.wordpress-sites .content,
     .page-id-53074 .elementor-element-18d1af2 .elementor-widget-wrap {
         padding: 80px 25px;
     }
 
-    .performance-card .container .content {
+    .page-id-53074 .performance-card .container .content {
         padding: 0 25px 80px;
     }
 
-    .migrate-more .container .contents {
+    .page-id-53074 .migrate-more .container .contents {
         padding: 80px 25px 60px;
     }
 
-    .hassle-free.gregghosting-plan .container .content {
+    .page-id-53074 .hassle-free.gregghosting-plan .container .content {
         padding: 0 25px 80px;
     }
 
-    .hero-banner .container .head h2 {
+    .page-id-53074 hero-banner .container .head h2 {
         font-size: 40px;
         line-height: 48px;
     }
 
-    .hero-banner .container .content {
+    .page-id-53074 .hero-banner .container .content {
         display: block;
         margin: auto;
     }
 
-    .hero-banner .container .content .text,
-    .hero-banner .container .content .figure {
+    .page-id-53074 .hero-banner .container .content .text,
+    .page-id-53074 .hero-banner .container .content .figure {
         width: 100%;
         text-align: center;
     }
 
-    .hero-banner .container .content .text {
+    .page-id-53074 .hero-banner .container .content .text {
         margin-bottom: 30px;
+    }
+
+    .page-id-53074 section.hero-banner {
+        padding-top: 100px;
     }
 }
 
@@ -823,47 +831,65 @@ section.migrate-more.wordpress-sites .content .paragraph p {
 
 @media (max-width: 680px) {
 
-    .hero-banner .container .content,
-    .hassle-free .container .content,
-    .high-performance .container .content,
-    .performance-card .container .content,
-    .love-kinsta .container .content,
-    .migrate-more.wordpress-sites .content,
+    .page-id-53074 .hero-banner .container .content,
+    .page-id-53074 .hassle-free .container .content,
+    .page-id-53074 .high-performance .container .content,
+    .page-id-53074 .performance-card .container .content,
+    .page-id-53074 .love-kinsta .container .content,
+    .page-id-53074 .migrate-more.wordpress-sites .content,
     .page-id-53074 .elementor-element-18d1af2 .elementor-widget-wrap {
         padding: 60px 15px;
     }
 
-    .performance-card .container .content {
-        padding: 0 15px 60px;
+    .page-id-53074 section.hero-banner {
+        padding-top: 80px;
     }
 
-    .migrate-more .container .contents {
+    .page-id-53074 .performance-card .container .content {
+        padding: 0 15px 60px;
+        .page-id-53074
+    }
+
+    .page-id-53074 .migrate-more .container .contents {
         padding: 60px 15px 45px;
     }
 
-    .hassle-free.gregghosting-plan .container .content {
+    .page-id-53074 .hassle-free.gregghosting-plan .container .content {
         padding: 0 15px 60px;
     }
 
-    .hero-banner .container .head h2 {
+    .page-id-53074 .hero-banner .container .head h2 {
         font-size: 28px;
         line-height: 33.6px;
     }
 
-    .hero-banner .container .content {
+    .page-id-53074 .hero-banner .container .content {
         display: block;
         margin: auto;
     }
 
-    .hero-banner .container .content .text,
-    .hero-banner .container .content .figure {
+    .page-id-53074 .hero-banner .container .content .text,
+    .page-id-53074 .hero-banner .container .content .figure {
         width: 100%;
         text-align: center;
     }
 
-    .hero-banner .container .content .text {
+    .page-id-53074 .hero-banner .container .content .text {
         margin-bottom: 30px;
+    }
+
+    .page-id-53074 .hero-banner .container .figure .img::after {
+        display: none;
+    }
+
+    .page-id-53074 .high-performance .text .head h2, .hassle-free .text .head h2 {
+        font-size: 24px;
+        line-height: 32.4px;
     }
 }
 
-@media (max-width: 680px) {}
+@media (max-width: 480px) {
+    .page-id-53074 .header_top_area .container {
+        height: 100% !important;
+    }
+}
