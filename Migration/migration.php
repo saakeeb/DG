@@ -28,19 +28,13 @@ get_header()?>
                         <h2>Unlimited Free Migrations From All Hosts Including:</h2>
                     </div>
                     <div class="paragraph">
-                        <p>WP Engine, Flywheel, SiteGround, Pagely, Pantheon, Cloudways, GoDaddy, DreamHost, Bluehost,
-                            HostGator, A2 Hosting,
-                            tsoHost, WPX Hosting, & Savvii
+                        <p class="pg-5">WP Engine, Flywheel, SiteGround, Pagely, Pantheon, Cloudways, GoDaddy, DreamHost, Bluehost,
+                            HostGator, A2 Hosting, tsoHost, WPX Hosting, & Savvii
                         </p>
                         <br>
-                        <p>We are excited to offer unlimited free migrations from all web hosts above. It doesn’t matter
-                            if you have one
-                            WordPress
-                            site or 50, our expert migration team is ready to help make your transition to Kinsta a
-                            breeze! Save time and money
-                            by
-                            taking advantage of Kinsta’s free and easy migration service. (Restrictions apply, see
-                            details below)
+                        <p class="pg-4">We are excited to offer unlimited free migrations from all web hosts above. It doesn’t matter
+                            if you have one WordPress site or 50, our expert migration team is ready to help make your transition to Kinsta a
+                            breeze! Save time and money by taking advantage of Kinsta’s free and easy migration service. (Restrictions apply, see details below)
                         </p>
                     </div>
                     <div class="btn">
@@ -58,7 +52,7 @@ get_header()?>
             </div>
         </div>
     </section>
-
+    
     <!-- Hassle-Free Migrations -->
     <section class="hassle-free">
         <div class="container">
@@ -242,7 +236,6 @@ get_header()?>
                             hog that ran more than 50
                             plugins (whoa!). Here’s what we found:
                         </p>
-                        <br>
                         <p>
                             Knowing that the simple migration to a Gregghosting server will produce page load speeds
                             that exceed those of WP Engine,
@@ -251,7 +244,7 @@ get_header()?>
                             they’ve been hosting. And more than 100 sites into that guarantee, we’ve never los
                         </p>
                     </div>
-                    <div class="cards">
+                    <div class="cards desktop">
                         <div class="card">
                             <h2><strong>500k/m Blog</strong></h2>
                             <p><span>15%</span> page load speed improvement</p>
@@ -268,6 +261,26 @@ get_header()?>
                             <p><span>52%</span> page load speed improvement</p>
                             <p class="speed">down from 1.38s to 1.17s</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-mobile">
+                <div class="cards mobile">
+                    <div class="card">
+                        <h2><strong>500k/m Blog</strong></h2>
+                        <p><span>15%</span> page load speed improvement</p>
+                        <p class="speed">down from 1.38s to 1.17s</p>
+                    </div>
+                    <div class="card">
+                        <h2><strong>Ecommerce Site</strong></h2>
+                        <p><span>81%</span> page load speed improvement</p>
+                        <p class="speed">down from 8.91s to 1.71s</p>
+                        <p><small>(yes, it had gotten that bad)</small></p>
+                    </div>
+                    <div class="card">
+                        <h2><strong>50 Plugin Resource Hog</strong></h2>
+                        <p><span>52%</span> page load speed improvement</p>
+                        <p class="speed">down from 1.38s to 1.17s</p>
                     </div>
                 </div>
             </div>
@@ -294,7 +307,63 @@ get_header()?>
                 <div class="content">
                     <div class="figure-1 figure">
                         <div class="img">
-                            <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/migrate-more-table.svg" alt="">
+                            <div class="table">
+                <div class="table-head">
+                    <span class="th1"></span>
+                    <span class="th2">Savings ($)</span>
+                    <span class="th3">Avarege Hours Saved (*)</span>
+                </div>
+                <div class="table-body">
+                    <div class="trs trs-1">
+                        <span class="tr1">Starter Plan</span>
+                        <span class="tr2">Save $100</span>
+                        <span class="tr3">1 hour</span>
+                    </div>
+                    <div class="trs trs-2">
+                        <span class="tr1">Pro Plan</span>
+                        <span class="tr2">Save up to $100</span>
+                        <span class="tr3">1 hour</span>
+                    </div>
+                    <div class="trs trs-3">
+                        <span class="tr1">Business 1 Plan</span>
+                        <span class="tr2">Save up to $200</span>
+                        <span class="tr3">1 hour</span>
+                    </div>
+                    <div class="trs trs-4">
+                        <span class="tr1">Business 2 Plan</span>
+                        <span class="tr2">Save up to $100</span>
+                        <span class="tr3">1 hour</span>
+                    </div>
+                    <div class="trs trs-5">
+                        <span class="tr1">Business 3 Plan</span>
+                        <span class="tr2">Save up to $100</span>
+                        <span class="tr3">1 hour</span>
+                    </div>
+                    <div class="trs trs-6">
+                        <span class="tr1">Business 4 Plan</span>
+                        <span class="tr2">Save up to $100</span>
+                        <span class="tr3">1 hour</span>
+                    </div>
+                    <div class="trs trs-7">
+                        <span class="tr1">Business 5 Plan</span>
+                        <span class="tr2">Save up to $100</span>
+                        <span class="tr3">1 hour</span>
+                    </div>
+                    <div class="trs trs-8">
+                        <span class="tr1">Enterprice 1 Plan</span>
+                        <span class="tr2">Save up to $100</span>
+                        <span class="tr3">1 hour</span>
+                    </div>
+                    <div class="trs trs-9">
+                        <span class="tr1">Enterprice 2 Plan</span>
+                        <span class="tr2">Save up to $100</span>
+                        <span class="tr3">1 hour</span>
+                    </div>
+                </div>
+                <div class="table-footer">
+                    <p>Average hours saved are estimates compiled by our support team.</p>
+                </div>
+            </div>
                         </div>
                     </div>
                     <div class="figure-2 figure">
@@ -308,7 +377,7 @@ get_header()?>
     </section>
 
     <!-- We love kinsta repeat-->
-    <section class="love-kinsta">
+    <section class="love-kinsta kinsta-1">
         <div class="container">
             <div class="content">
                 <div class="figure">
@@ -438,7 +507,8 @@ get_header()?>
             <div class="content">
                 <div class="figure">
                     <div class="img">
-                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/gregghosting-plan.svg" alt="">
+                        <img class="gh-h" src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/gregghosting-plan.svg" alt="">
+                        <img class="gh-v" src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/svg/gregghosting-plan-vertical.svg" alt="">
                     </div>
                 </div>
                 <div class="text">
@@ -483,7 +553,7 @@ get_header()?>
     </section>
 
     <!-- We love kinsta repeat-->
-    <section class="love-kinsta">
+    <section class="love-kinsta kinsta-1 kinsta-2">
         <div class="container">
             <div class="content">
                 <div class="figure">
@@ -654,6 +724,262 @@ get_header()?>
         </div>
     </section>
 
+    <!-- Testimonial Section  Slider-->
+    <section
+        class="migration elementor-section elementor-top-section elementor-element elementor-element-18d1af2 elementor-section-full_width small-business-testi elementor-section-height-default elementor-section-height-default"
+        data-id="18d1af2" data-element_type="section"
+        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="elementor-container elementor-column-gap-default">
+            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8217312"
+                data-id="8217312" data-element_type="column">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-d7f77fe elementor-widget elementor-widget-heading"
+                        data-id="d7f77fe" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">Already earning with us</h2>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-069a54f elementor-widget elementor-widget-html"
+                        data-id="069a54f" data-element_type="widget" data-widget_type="html.default">
+                        <div class="elementor-widget-container">
+                            <section id="agency_pages" class="agency_pages">
+                                <div class="owl-carousel owl-theme owl-loaded owl-drag">
+                                    <div class="owl-stage-outer">
+                                        <div class="owl-stage"
+                                            style="transition: all 1.5s ease 0s; width: 6315px; transform: translate3d(-3029px, 0px, 0px);">
+                                                <div class="owl-item" style="width: auto; margin-right: 41px;">
+                                                <div class="single-looking-for-table">
+                                                    <div class="looking-top-table-content why-page-cont">
+                                                        <p>Lorem Ipsum has been the industry's standard dummy text ever
+                                                            since the 1500s, when an unknown printer took a galley of type
+                                                            and scrambled it to make a type specimen book.</p>
+                                                        <div class="rating-car-rates">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                        </div>
+                                                        <div class="why-auth-meta">
+                                                            <img src="https://gregghosting.com/wp-content/uploads/2021/11/Ellipse-10.png"
+                                                                style="opacity: 1;">
+                                                            <h6 class="name_area">David Miller <span>CEO</span></h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="owl-item" style="width: auto; margin-right: 41px;">
+                                                <div class="single-looking-for-table">
+                                                    <div class="looking-top-table-content why-page-cont">
+                                                        <p>LLorem Ipsum has been the industry's standard dummy text ever
+                                                            since the 1500s, when an unknown printer took a galley of type
+                                                            and scrambled it to make a type specimen book.</p>
+                                                        <div class="rating-car-rates">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                        </div>
+                                                        <div class="why-auth-meta">
+                                                            <img src="https://gregghosting.com/wp-content/uploads/2021/11/Ellipse-9.png"
+                                                                style="opacity: 1;">
+                                                            <h6 class="name_area">David Miller <span>CEO</span></h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="owl-item" style="width: auto; margin-right: 41px;">
+                                                <div class="single-looking-for-table">
+                                                    <div class="looking-top-table-content why-page-cont">
+                                                        <p>Lorem Ipsum has been the industry's standard dummy text ever
+                                                            since the 1500s, when an unknown printer took a galley of type
+                                                            and scrambled it to make a type specimen book.</p>
+                                                        <div class="rating-car-rates">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                        </div>
+                                                        <div class="why-auth-meta">
+                                                            <img src="https://gregghosting.com/wp-content/uploads/2021/11/Ellipse-8.png"
+                                                                style="opacity: 1;">
+                                                            <h6 class="name_area">David Miller <span>CEO</span></h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="owl-item" style="width: auto; margin-right: 41px;">
+                                                <div class="single-looking-for-table">
+                                                    <div class="looking-top-table-content why-page-cont">
+                                                        <p>Lorem Ipsum has been the industry's standard dummy text ever
+                                                            since the 1500s, when an unknown printer took a galley of type
+                                                            and scrambled it to make a type specimen book.</p>
+                                                        <div class="rating-car-rates">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                        </div>
+                                                        <div class="why-auth-meta">
+                                                            <img src="https://gregghosting.com/wp-content/uploads/2021/11/Ellipse-10.png"
+                                                                style="opacity: 1;">
+                                                            <h6 class="name_area">David Miller <span>CEO</span></h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="owl-item active" style="width: auto; margin-right: 41px;">
+                                                <div class="single-looking-for-table">
+                                                    <div class="looking-top-table-content why-page-cont">
+                                                        <p>Lorem Ipsum has been the industry's standard dummy text ever
+                                                            since the 1500s, when an unknown printer took a galley of type
+                                                            and scrambled it to make a type specimen book.</p>
+                                                        <div class="rating-car-rates">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                        </div>
+                                                        <div class="why-auth-meta">
+                                                            <img src="https://gregghosting.com/wp-content/uploads/2021/11/Ellipse-8.png"
+                                                                style="opacity: 1;">
+                                                            <h6 class="name_area">David Miller <span>CEO</span></h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="owl-item active center" style="width: auto; margin-right: 41px;">
+                                                <div class="single-looking-for-table">
+                                                    <div class="looking-top-table-content why-page-cont">
+                                                        <p>Lorem Ipsum has been the industry's standard dummy text ever
+                                                            since the 1500s, when an unknown printer took a galley of type
+                                                            and scrambled it to make a type specimen book.</p>
+                                                        <div class="rating-car-rates">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                        </div>
+                                                        <div class="why-auth-meta">
+                                                            <img src="https://gregghosting.com/wp-content/uploads/2021/11/Ellipse-8.png"
+                                                                style="opacity: 1;">
+                                                            <h6 class="name_area">David Miller <span>CEO</span></h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="owl-item active" style="width: auto; margin-right: 41px;">
+                                                <div class="single-looking-for-table">
+                                                    <div class="looking-top-table-content why-page-cont">
+                                                        <p>Lorem Ipsum has been the industry's standard dummy text ever
+                                                            since the 1500s, when an unknown printer took a galley of type
+                                                            and scrambled it to make a type specimen book.</p>
+                                                        <div class="rating-car-rates">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                            <img class="star"
+                                                                src="https://gregghosting.com/wp-content/uploads/Star-1.svg"
+                                                                style="opacity: 1;">
+                                                        </div>
+                                                        <div class="why-auth-meta">
+                                                            <img src="https://gregghosting.com/wp-content/uploads/2021/11/Ellipse-8.png"
+                                                                style="opacity: 1;">
+                                                            <h6 class="name_area">David Miller <span>CEO</span></h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><img
+                                                src="/wp-content/uploads/Group-367.png"></button><button type="button"
+                                            role="presentation" class="owl-next"><img
+                                                src="/wp-content/uploads/Group-366.png"></button></div>
+                                    <div class="owl-dots disabled"></div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Migrate More repeat wordpress-sites-->
     <section class="migrate-more wordpress-sites">
         <div class="container">
@@ -675,25 +1001,5 @@ get_header()?>
         </div>
     </section>
 
-    <!-- footer  -->
-
-
-    <script src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/js/jquery.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/js/slick.min.js"></script>
-    <script src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/js/main.js"></script>
-</body>
-
-</html> -->
-
-        <!-- if($pageIdd === 53074){
-           wp_enqueue_style( 'child-style-s422',get_stylesheet_directory_uri() . '/migration-file/css/slick-theme.css',true,time());
-           
-            wp_enqueue_style( 'child-style-s423',get_stylesheet_directory_uri() . '/migration-file/css/slick.css',true,time());
-             
-            wp_enqueue_style( 'child-style-s424',get_stylesheet_directory_uri() . '/migration-file/css/font-awesome.min.css',true,time());
-              
-            wp_enqueue_style( 'child-style-s421',get_stylesheet_directory_uri() . '/migration-file/css/style.css',true,time());
-        
-        } -->
+<!--Getting footer-->
 <?php get_footer();?>
