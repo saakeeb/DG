@@ -1,3 +1,4 @@
+/*Nazmus Sakib*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
@@ -379,6 +380,7 @@
     font-weight: 400;
     line-height: 23px;
     color: #4F4F4F;
+    margin-bottom: 0px;
 }
 
 .page-id-53074 .love-kinsta .text {
@@ -1820,5 +1822,11 @@
 
     .page-id-53074 .hassle-free.gregghosting-plan .container .content .text {
         padding: 0px 40px;
+    }
+
+    .page-id-53074 .high-performance .img::after, .page-id-53074 .hassle-free .img::after {
+        width: calc(100% - 55px);
+        height: calc(100% - 10px);
+        top: 5px;
     }
 }

@@ -211,7 +211,7 @@ get_header()?>
             <div class="content">
                 <div class="figure">
                     <div class="img">
-                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/img/kagiso-rabada.png" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/img/kagiso-replace.png" alt="">
                     </div>
                     <div class="title">
                         <h2><strong>Kagiso Rabada</strong></h2>
@@ -382,7 +382,7 @@ get_header()?>
             <div class="content">
                 <div class="figure">
                     <div class="img">
-                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/img/kagiso-rabada.png" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/img/kagiso-replace.png" alt="">
                     </div>
                     <div class="title">
                         <h2><strong>Kagiso Rabada</strong></h2>
@@ -558,7 +558,7 @@ get_header()?>
             <div class="content">
                 <div class="figure">
                     <div class="img">
-                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/img/kagiso-rabada.png" alt="">
+                        <img src="<?php echo get_home_url()?>/wp-content/themes/qloud-child/migration-file/img/kagiso-replace.png" alt="">
                     </div>
                     <div class="title">
                         <h2><strong>Kagiso Rabada</strong></h2>
